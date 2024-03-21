@@ -71,3 +71,15 @@ footer {
   margin: 10px;
   background-color: white;
 }
+@media screen and (max-width: 768px) {
+
+  .set {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .drum {
+    margin: 5px;
+    padding: 10px 20px;
+  }
+}
